@@ -9,23 +9,23 @@
         android:roundIcon="@mipmap/logo_app_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".MainActivity2"
+            android:parentActivityName=".MainActivity">
         </activity>
-
         <activity android:name=".MainActivity">
+
         </activity>
+        <activity android:name=".LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".RegistrationActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppThemeNoActionBar" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".RegistrationActivity">
-        </activity>
-
-        <activity
-            android:name=".SplashScreen"
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 
