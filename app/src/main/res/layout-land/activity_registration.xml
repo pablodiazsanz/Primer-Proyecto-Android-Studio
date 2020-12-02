@@ -17,6 +17,15 @@
         app:srcCompat="@drawable/girl" />-->
 
     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="matrix"
+        android:src="@drawable/tenis_photo" />
+
+    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="200dp"
@@ -25,7 +34,8 @@
         app:layout_constraintEnd_toEndOf="@id/guideline1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/x4logo" />
+        android:src="@drawable/x4logo"
+        android:background="@drawable/logo_background" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"

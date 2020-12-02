@@ -8,6 +8,15 @@
     android:background="@color/colorAccent">
 
     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="matrix"
+        android:src="@drawable/tenis_photo" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,8 +30,9 @@
         android:id="@+id/txt_Subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="140dp"
+        android:rotation="325"
         android:text="@string/txt_subtitle"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30dp"

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
+    android:fontFamily="@font/font"
     tools:context=".LoginActivity">
 
     <!--<ImageView
@@ -24,27 +25,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="matrix"
-        app:srcCompat="@drawable/tenis_photo" />
+        android:src="@drawable/tenis_fondo" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:paddingLeft="20dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline1"
+        android:layout_height="100dp"
+        android:layout_margin="80dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/x4logo"
-        android:background="@drawable/logo_background"
 
-        />
+
+        app:srcCompat="@drawable/logo_rakets" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"
         android:layout_width="0dp"
         android:layout_height="58dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:alpha="0.8"
@@ -55,10 +55,9 @@
         app:layout_constraintTop_toBottomOf="@id/imageView2">
 
         <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white"
-        />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
