@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * En esta clase se creara la pantalla de inicio de sesión de SKIKI
+ * @author pablo
+ */
 public class LoginActivity extends AppCompatActivity {
 
     @Override

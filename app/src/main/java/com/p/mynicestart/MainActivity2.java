@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/**
+ * Esta pantalla permite volver al MainActivity
+ * @author pablo
+ */
 public class MainActivity2 extends AppCompatActivity {
 
     @Override

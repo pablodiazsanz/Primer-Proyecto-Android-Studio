@@ -18,12 +18,12 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="matrix"
-        android:src="@drawable/tenis_photo" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/sk2" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -33,8 +33,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/x4logo"
-        android:background="@drawable/logo_background"/>
+        android:src="@drawable/skiki" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"
@@ -97,11 +96,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="150dp"
         android:text="@string/txt_entrar"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/passwordTIL" />
+        app:layout_constraintTop_toBottomOf="@id/passwordTIL"
+        style="@style/ButtonStraight"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/material_btn_registrar"
@@ -109,11 +109,12 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="150dp"
         android:text="@string/txt_registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guideline3"
-        app:layout_constraintTop_toBottomOf="@id/passwordTIL" />
+        app:layout_constraintTop_toBottomOf="@id/passwordTIL"
+        style="@style/ButtonStraight"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"

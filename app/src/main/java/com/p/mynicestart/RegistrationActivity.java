@@ -7,6 +7,10 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
+/**
+ * En esta pantalla se hara el registro en la aplicacion
+ * @author pablo
+ */
 public class RegistrationActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

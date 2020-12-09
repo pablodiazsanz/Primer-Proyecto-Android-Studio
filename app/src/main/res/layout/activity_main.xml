@@ -12,14 +12,10 @@
         android:layout_height="150dp"
         android:layout_marginStart="128dp"
         android:layout_marginTop="80dp"
-        android:background="@drawable/logo_background"
-        android:paddingLeft="20dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217"
-        app:srcCompat="@drawable/x4logo" />
+         />
 
     <Button
         android:id="@+id/button"
@@ -28,8 +24,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginTop="276dp"
         android:text="OK"
-        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/button_custom"/>
+        style="@style/ButtonOutlined"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

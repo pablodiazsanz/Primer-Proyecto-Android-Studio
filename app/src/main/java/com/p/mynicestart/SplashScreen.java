@@ -14,7 +14,11 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-
+/**
+ * Esta pantalla hace la animación cunado se inicia la aplicacion
+ * @author pablo
+ * @see LoginActivity
+ */
 public class SplashScreen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +33,9 @@ public class SplashScreen extends Activity {
         imageView.startAnimation(myanim);
 
         ImageView fondo = findViewById(R.id.imageView3);
+
         Glide.with(this)
-                .load(R.drawable.tenis_fondo)
+                .load(R.drawable.sk1)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.light_purple_button)))
@@ -39,6 +44,10 @@ public class SplashScreen extends Activity {
         openApp(true);
     }
 
+    /**
+     * Este método inicia el SplashScreen con un tiempo predeteminado
+     * @param locationPermission
+     */
     private void openApp(boolean locationPermission) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

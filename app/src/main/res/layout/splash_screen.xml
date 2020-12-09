@@ -16,17 +16,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="matrix"
-        android:background="@drawable/tenis_fondo"
+        android:background="@drawable/sk1"
          />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="228dp"
-        android:background="@drawable/raqueta_tenis_splash"
-        android:scaleType="matrix"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/logo_background"
+        android:src="@mipmap/logo_app_foreground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
