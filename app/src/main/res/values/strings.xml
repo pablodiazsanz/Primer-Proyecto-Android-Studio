@@ -5,4 +5,9 @@
     <string name="txt_crear">CREAR</string>
     <string name="txt_volver">VOLVER</string>
     <string name="txt_subtitle"><b>PADEL 4 LIFE!</b></string>
+    <string name="swiperefresh">Desliza hacia abajo para refrescar el contenido</string>
+    <string name="esquis">Historial de Esquis</string>
+    <string name="chatapp">ChatApp</string>
+    <string name="nombre_esquis">Salomon S-Max 10</string>
+    <string name="fijaciones">Con fijaciones Z12 Walk + nucleo de Madera</string>
 </resources>
